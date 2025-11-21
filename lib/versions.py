@@ -1,6 +1,6 @@
 import sys
-import requests
-import pytest
+import requests # type: ignore
+import pytest # type: ignore
 
 def python_version():
     return sys.version_info
